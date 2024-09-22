@@ -1,0 +1,62 @@
+/* Resetting default browser margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #e3f2fd, #f1f8e9); /* Elegant soft gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.payment-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    color: #444;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #777;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.qr-code img {
+    width: 200px;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.complete-payment-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.complete-payment-btn:hover {
+    background-color: #388E3C;
+}
+
